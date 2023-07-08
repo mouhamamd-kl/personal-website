@@ -1,0 +1,26 @@
+
+@import url("https:fonts.googleapis.com/css?family=El+Messiri");
+body{
+    font-family: 'El Messiri','sans-serif';
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    direction: rtl;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+main>section{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#header{
+    background-color: #353637;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px #32a0c2;
+    padding: 0px 120px;
+}
